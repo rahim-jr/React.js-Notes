@@ -1,4 +1,5 @@
-# generator function
+# Generator Function
+
 ```javascript
 function newUser(x, y) {
   var user = {
@@ -10,11 +11,11 @@ function newUser(x, y) {
 var iqbal = newUser('Jhum', '24');
 ```
 
-# constructor function
+## Constructor Function
+
 ```javascript
 function newUser(x, y) {
   this.name = x;
   this.age = y;
 }
 var t = new newUser('Jhum', '24');
-```
